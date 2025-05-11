@@ -1,6 +1,6 @@
 function createHook(message)
     local DiscordHook = require("DiscordHook")
-    local webhook = "https://discord.com/api/webhooks/1295225793118732348/Cyw8UaBYQRqvrJ4vVq3ktZqxSGjT6pu5pwJXpXB4L6I-EVQfOshFKkCcZh9akGuwxIYN"
+    local webhook = --WEBHOOK URL
     local success, hook = DiscordHook.createWebhook(webhook)
     hook.send(message, "Journaled Universal Intelligent Computing Environment", "https://raw.githubusercontent.com/numikFRKI/numikFRKI/refs/heads/main/assets/juice%20asci.png")
     if not success then
