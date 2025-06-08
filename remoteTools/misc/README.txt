@@ -1,0 +1,1 @@
+This folder holds files that either don't have a place, or can be useful universally for remote control in CC.
